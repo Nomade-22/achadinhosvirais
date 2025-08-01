@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Achadinhos Virais Lucrativos</title>
+  <title>Achadinhos Virais</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   
-  <!-- Google tag (gtag.js) -->
+  <!-- Pixel do Google Ads -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17417674454"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -23,56 +23,47 @@
       padding: 0;
       color: #f1f5f9;
     }
-
     .container {
       max-width: 850px;
       margin: 0 auto;
       padding: 0;
     }
-
     .hero img {
       width: 100%;
       display: block;
     }
-
     .content {
       padding: 40px 20px;
       background: #1e293b;
     }
-
-    h1, h2 {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
     h1 {
       font-size: 32px;
       color: #f8fafc;
+      margin-bottom: 20px;
+      text-align: center;
     }
-
     h2 {
       font-size: 24px;
       color: #facc15;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      text-align: center;
     }
-
     p {
       font-size: 18px;
       line-height: 1.7;
       margin-bottom: 20px;
       color: #cbd5e1;
     }
-
     ul {
       padding-left: 20px;
       margin-bottom: 25px;
     }
-
     ul li {
       margin-bottom: 12px;
       list-style: '✅ ';
       color: #e2e8f0;
     }
-
     .testimonial {
       background: #0f766e;
       border-left: 4px solid #14b8a6;
@@ -83,12 +74,10 @@
       font-style: italic;
       animation: fadeIn 1.2s ease-in;
     }
-
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(20px); }
       to { opacity: 1; transform: translateY(0); }
     }
-
     .button {
       display: inline-block;
       background: #f43f5e;
@@ -100,46 +89,44 @@
       transition: background 0.3s;
       animation: pulse 1.5s infinite;
     }
-
     @keyframes pulse {
       0% { transform: scale(1); }
       50% { transform: scale(1.05); }
       100% { transform: scale(1); }
     }
-
     .button:hover {
       background: #e11d48;
     }
-
     .cta {
       text-align: center;
       margin-top: 30px;
     }
-
-    .video-container {
-      position: relative;
-      padding-bottom: 56.25%;
-      padding-top: 25px;
-      height: 0;
+    .countdown {
+      font-size: 22px;
+      text-align: center;
+      font-weight: bold;
+      color: #facc15;
       margin-top: 30px;
     }
-
-    .video-container iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border: none;
+    .countdown span {
+      background: #facc15;
+      color: #1e293b;
+      padding: 5px 12px;
+      border-radius: 8px;
+      margin: 0 5px;
+      display: inline-block;
+      min-width: 40px;
+      animation: blink 1s infinite;
     }
-
+    @keyframes blink {
+      50% { box-shadow: 0 0 10px #facc15; }
+    }
     footer {
       text-align: center;
       font-size: 14px;
       color: #94a3b8;
       margin: 40px 0 20px;
     }
-
     .security {
       margin-top: 20px;
       display: flex;
@@ -148,65 +135,133 @@
       gap: 16px;
       opacity: 0.9;
     }
-
     .security img {
       height: 40px;
+    }
+    .guarantee {
+      background-color: #0c4a6e;
+      padding: 30px;
+      border-radius: 10px;
+      color: #e0f2fe;
+      margin-top: 40px;
+      text-align: center;
+    }
+    .guarantee strong {
+      color: #38bdf8;
+    }
+    iframe {
+      display: block;
+      margin: 30px auto;
+      border-radius: 10px;
+    }
+    @media (max-width: 640px) {
+      .content {
+        padding: 25px 16px;
+      }
+      h1 {
+        font-size: 22px;
+      }
+      h2 {
+        font-size: 20px;
+      }
+      .button {
+        width: 100%;
+        font-size: 16px;
+        padding: 14px;
+      }
+      .countdown {
+        font-size: 18px;
+      }
+      .countdown span {
+        min-width: 32px;
+      }
+      .security img {
+        height: 36px;
+      }
+      iframe {
+        width: 100%;
+      }
     }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="hero">
-      <img src="banner_viral.jpg" alt="Achadinhos Virais Lucrativos">
+      <img src="banner.jpg" alt="Achadinhos Virais Lucrativos">
     </div>
+
     <div class="content">
-      <h1>🚀 Transforme seu perfil em uma máquina de vendas!</h1>
-      <p><strong>Mais de 2.500 vídeos virais</strong> pra aumentar suas vendas como afiliado. Em alta resolução e prontos para postar nas suas redes sociais.</p>
-      <p>Com <strong>acesso vitalício</strong> e <strong>atualizações semanais</strong>, você estará sempre à frente com conteúdo novo e pronto para viralizar!</p>
-      <p style="font-weight:bold;color:#facc15;text-align:center;font-size:20px;">🔥 Quero garantir meu acesso por apenas <strong>R$49,00</strong> ou <strong>11x de R$5,29</strong>!</p>
+      <h1>Transforme seu perfil em uma máquina de vendas!</h1>
 
-      <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/FAek9PYa10k" title="Achadinhos Vídeo" allowfullscreen></iframe>
-      </div>
-
-      <h1>😓 Está cansado de perder horas criando conteúdo que não vende?</h1>
-      <p>Ou talvez você:</p>
-      <ul>
-        <li>❌ Não sabe por onde começar quando o assunto é vídeos virais?</li>
-        <li>❌ Perde tempo demais editando e buscando ideias?</li>
-        <li>❌ Vê suas vendas estagnadas porque não consegue atrair atenção?</li>
-        <li>❌ Está frustrado porque seus conteúdos não engajam como gostaria?</li>
-        <li>❌ Sente que está ficando para trás enquanto outros afiliados bombam nas vendas?</li>
-        <li>❌ Quer aumentar suas vendas, mas não sabe como aproveitar as tendências do momento?</li>
-      </ul>
-
-      <p>Você acaba de encontrar o grupo mais completo do mercado com <strong>mais de 2.500 vídeos virais</strong>, prontos para serem usados em suas redes sociais.</p>
-      <p>Com poucos cliques, você já estará vendendo as <strong>tendências do momento</strong> e conquistando o público certo!</p>
-
-      <div class="testimonial">“Nunca criei conteúdo, mas com esses vídeos aumentei minhas vendas como afiliado em 3x!” — Pedro S.</div>
-      <div class="testimonial">“Uso os vídeos diariamente e meus reels nunca tiveram tanto engajamento.” — Amanda R.</div>
-      <div class="testimonial">“Já recuperei o valor do investimento em menos de 1 semana.” — Thiago L.</div>
-
-      <p style="font-weight:bold;color:#16f2b3;text-align:center;font-size:20px;margin-top:40px;">
-        🔐 Compra 100% segura! Seu acesso é feito pela plataforma Kiwify, com garantia de 7 dias ou seu dinheiro de volta.
-      </p>
+      <p>Mais de 2.500 vídeos virais prontos para postar nas suas redes sociais com alta resolução, acesso vitalício e atualizações semanais.</p>
 
       <div class="cta">
         <a class="button" href="https://kiwify.app/qsfeINf?afid=DjcWajgL" target="_blank"
-          onclick="gtag('event', 'conversion', {'send_to': 'AW-17417674454'});">
+           onclick="gtag('event', 'conversion', {'send_to': 'AW-17417674454/ABC123'});">
           👉 Quero acessar agora
         </a>
       </div>
 
+      <div class="countdown">
+        Oferta expira em: <br>
+        <span id="dias">00</span> : <span id="horas">00</span> : <span id="minutos">00</span> : <span id="segundos">00</span>
+      </div>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/FAek9PYa10k" title="YouTube video"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+      <div class="testimonial">“Comecei a aplicar as ideias e em menos de uma semana já estava fazendo vendas!” — Camila S.</div>
+      <div class="testimonial">“Os vídeos virais realmente bombam. É só copiar, colar e lucrar.” — João V.</div>
+      <div class="testimonial">“Antes eu travava na criação de conteúdo. Agora é só usar o pack e pronto.” — Luana R.</div>
+
+      <h2>🔐 Compra 100% segura</h2>
+      <p>Você será redirecionado à plataforma da <strong>Kiwify</strong>, com total segurança e criptografia em todas as etapas do pagamento.</p>
+
+      <div class="security">
+        <img src="https://img.icons8.com/fluency/48/000000/lock.png" alt="Cadeado">
+        <img src="https://img.icons8.com/color/48/000000/verified-badge.png" alt="Verificado">
+        <img src="https://img.icons8.com/fluency/48/card-in-use.png" alt="Pagamento Seguro">
+        <img src="https://img.icons8.com/fluency/48/shield.png" alt="Proteção total">
+      </div>
+
+      <div class="guarantee">
+        <h2>🛡️ Garantia incondicional de 7 dias</h2>
+        <p>Você tem <strong>7 dias</strong> para testar e, se não gostar, é só pedir reembolso sem perguntas.</p>
+      </div>
+
       <footer>
-        Página de pré-venda independente | Compra segura via Kiwify
-        <div class="security">
-          <img src="https://img.icons8.com/fluency/48/000000/lock.png" alt="Cadeado">
-          <img src="https://img.icons8.com/color/48/000000/verified-badge.png" alt="Verificado">
-          <img src="https://img.icons8.com/fluency/48/card-in-use.png" alt="Pagamento Seguro">
-        </div>
+        Página independente | Produto via Kiwify | Todos os direitos reservados
       </footer>
     </div>
   </div>
+
+  <script>
+    const diasEl = document.getElementById("dias");
+    const horasEl = document.getElementById("horas");
+    const minutosEl = document.getElementById("minutos");
+    const segundosEl = document.getElementById("segundos");
+
+    const agora = new Date();
+    const prazoFinal = new Date(agora.getTime() + 2 * 60 * 60 * 1000);
+
+    function atualizarContador() {
+      const agora = new Date();
+      const tempoRestante = prazoFinal - agora;
+
+      const dias = Math.floor(tempoRestante / (1000 * 60 * 60 * 24));
+      const horas = Math.floor((tempoRestante / (1000 * 60 * 60)) % 24);
+      const minutos = Math.floor((tempoRestante / 1000 / 60) % 60);
+      const segundos = Math.floor((tempoRestante / 1000) % 60);
+
+      diasEl.textContent = dias.toString().padStart(2, '0');
+      horasEl.textContent = horas.toString().padStart(2, '0');
+      minutosEl.textContent = minutos.toString().padStart(2, '0');
+      segundosEl.textContent = segundos.toString().padStart(2, '0');
+    }
+
+    setInterval(atualizarContador, 1000);
+    atualizarContador();
+  </script>
 </body>
 </html>
